@@ -1,4 +1,96 @@
-img {
-  width: 100vw;
-  height: 100vh;
+.moon {
+  width: 35%;
+  height: 35%;
+  display: block;
+  margin: auto;
+}
+
+.trump {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  display: block;
+  border: 1px black solid;
+}
+p {
+  max-width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+.quote {
+  text-align: center;
+  margin: auto;
+  max-width: 20%;
+}
+
+.firstArt {
+  max-width: 60%;
+  margin: auto;
+  border: 3px ridge rgb(200, 40, 40);
+  padding: 1em;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: rgb(249, 240, 189);
+}
+
+.sndArt {
+  max-width: 60%;
+  margin: auto;
+  border: 3px ridge rgb(200, 40, 40);
+  padding: 1em;
+  background-color: rgb(249, 240, 189);
+}
+
+.mainContent {
+  max-width: 100%;
+  margin: auto;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  -webkit-text-stroke: 1px black;
+  color: rgb(53, 53, 53);
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: rgb(200, 40, 40);
+  -webkit-text-stroke: 0.5px black;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgba(251, 242, 194, 0) 0%,
+    rgba(251, 242, 194, 1) 15%,
+    rgba(251, 242, 194, 1) 30%,
+    rgba(251, 242, 194, 1) 25%,
+    rgba(251, 242, 194, 1) 35%,
+    rgba(251, 242, 194, 1) 35%,
+    rgba(251, 242, 194, 1) 50%,
+    rgba(251, 242, 194, 1) 65%,
+    rgba(251, 242, 194, 0) 65%,
+    rgba(251, 242, 194, 1) 50%,
+    rgba(251, 242, 194, 1) 75%,
+    rgba(251, 242, 194, 1) 85%,
+    rgba(251, 242, 194, 0) 100%
+  );
+}
+
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif, "Arial Narrow", Arial,
+    sans-serif;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  background-color: rgba(246, 232, 139, 0.389);
+  max-width: fit-content;
+  padding: 1em;
 }
