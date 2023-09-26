@@ -30,18 +30,18 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #949494;
+  color: #f51fc7;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
 }
 
 nav ul :hover {
-  background-color: rgb(103, 103, 103);
-  color: white;
+  background-color: rgb(246, 246, 246);
+  color: rgb(5, 236, 128);
 }
 
 header {
-  background-color: #eeeeee;
+  background-color: #c60303;
   margin: 0.2rem auto;
   width: 90vw;
   margin: 2rem auto;
